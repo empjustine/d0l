@@ -1,0 +1,24 @@
+{
+    "name": "d0l",
+    "author": "Cássio Oseki",
+    "description": "A CommonJS module for deterministic context-free L-Systems.",
+    "version": "0.0.1",
+    "types": "./index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/empjustine/d0l.git"
+    },
+    "bugs": {
+        "url": "https://github.com/empjustine/d0l/issues"
+    },
+    "homepage": "https://github.com/empjustine/d0l#readme",
+    "devDependencies": {
+        "typescript": "^2.6.2",
+        "tape": "^4.8.0"
+    },
+    "scripts": {
+        "build": "tsc",
+        "prepublish": "npm run build",
+        "test": "tape test.js"
+    }
+}
